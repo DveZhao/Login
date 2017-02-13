@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5584FA741E517D2D006D589C /* FLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA551E517D2D006D589C /* FLLoginViewController.m */; };
+		5584FA751E517D2D006D589C /* FingerprintIdentification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA581E517D2D006D589C /* FingerprintIdentification.m */; };
+		5584FA761E517D2D006D589C /* FLAutoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA5A1E517D2D006D589C /* FLAutoLogin.m */; };
+		5584FA771E517D2D006D589C /* FLNumCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA5C1E517D2D006D589C /* FLNumCountDown.m */; };
+		5584FA781E517D2D006D589C /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA5E1E517D2D006D589C /* SSKeychain.m */; };
+		5584FA791E517D2D006D589C /* FLLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA631E517D2D006D589C /* FLLoginViewModel.m */; };
+		5584FA7A1E517D2D006D589C /* FLLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA661E517D2D006D589C /* FLLoginView.m */; };
+		5584FA7B1E517D2D006D589C /* LoginTextFiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA681E517D2D006D589C /* LoginTextFiledView.m */; };
+		5584FA7C1E517D2D006D589C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA6B1E517D2D006D589C /* NSString+Extension.m */; };
+		5584FA7D1E517D2D006D589C /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA6D1E517D2D006D589C /* UIButton+ImageTitleStyle.m */; };
+		5584FA7E1E517D2D006D589C /* FLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA711E517D2D006D589C /* FLNavigationViewController.m */; };
+		5584FA7F1E517D2D006D589C /* FlRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5584FA731E517D2D006D589C /* FlRootViewController.m */; };
 		55919C9A1E5163A200446D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919C991E5163A200446D7E /* main.m */; };
 		55919C9D1E5163A200446D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919C9C1E5163A200446D7E /* AppDelegate.m */; };
 		55919CA01E5163A200446D7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919C9F1E5163A200446D7E /* ViewController.m */; };
@@ -15,18 +27,6 @@
 		55919CA81E5163A200446D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55919CA61E5163A200446D7E /* LaunchScreen.storyboard */; };
 		55919CB31E5163A200446D7E /* LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CB21E5163A200446D7E /* LoginTests.m */; };
 		55919CBE1E5163A200446D7E /* LoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CBD1E5163A200446D7E /* LoginUITests.m */; };
-		55919CED1E51659F00446D7E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CCC1E51659F00446D7E /* NSString+Extension.m */; };
-		55919CEE1E51659F00446D7E /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */; };
-		55919CEF1E51659F00446D7E /* FLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD11E51659F00446D7E /* FLNavigationViewController.m */; };
-		55919CF01E51659F00446D7E /* FlRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD31E51659F00446D7E /* FlRootViewController.m */; };
-		55919CF11E51659F00446D7E /* FingerprintIdentification.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD71E51659F00446D7E /* FingerprintIdentification.m */; };
-		55919CF21E51659F00446D7E /* FLNumCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD91E51659F00446D7E /* FLNumCountDown.m */; };
-		55919CF31E51659F00446D7E /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CDB1E51659F00446D7E /* SSKeychain.m */; };
-		55919CF41E51659F00446D7E /* FLAutoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CDD1E51659F00446D7E /* FLAutoLogin.m */; };
-		55919CF51E51659F00446D7E /* FLLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE11E51659F00446D7E /* FLLoginViewModel.m */; };
-		55919CF61E51659F00446D7E /* FLLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE41E51659F00446D7E /* FLLoginView.m */; };
-		55919CF71E51659F00446D7E /* LoginTextFiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE61E51659F00446D7E /* LoginTextFiledView.m */; };
-		55919CF81E51659F00446D7E /* FLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CEA1E51659F00446D7E /* FLLoginViewController.m */; };
 		9BCB36C756622D7E0B8C9551 /* libPods-Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B039F7C153031E65A3013 /* libPods-Login.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5584FA541E517D2D006D589C /* FLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewController.h; sourceTree = "<group>"; };
+		5584FA551E517D2D006D589C /* FLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewController.m; sourceTree = "<group>"; };
+		5584FA571E517D2D006D589C /* FingerprintIdentification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintIdentification.h; sourceTree = "<group>"; };
+		5584FA581E517D2D006D589C /* FingerprintIdentification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintIdentification.m; sourceTree = "<group>"; };
+		5584FA591E517D2D006D589C /* FLAutoLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAutoLogin.h; sourceTree = "<group>"; };
+		5584FA5A1E517D2D006D589C /* FLAutoLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAutoLogin.m; sourceTree = "<group>"; };
+		5584FA5B1E517D2D006D589C /* FLNumCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNumCountDown.h; sourceTree = "<group>"; };
+		5584FA5C1E517D2D006D589C /* FLNumCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNumCountDown.m; sourceTree = "<group>"; };
+		5584FA5D1E517D2D006D589C /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		5584FA5E1E517D2D006D589C /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		5584FA621E517D2D006D589C /* FLLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewModel.h; sourceTree = "<group>"; };
+		5584FA631E517D2D006D589C /* FLLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewModel.m; sourceTree = "<group>"; };
+		5584FA651E517D2D006D589C /* FLLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginView.h; sourceTree = "<group>"; };
+		5584FA661E517D2D006D589C /* FLLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginView.m; sourceTree = "<group>"; };
+		5584FA671E517D2D006D589C /* LoginTextFiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextFiledView.h; sourceTree = "<group>"; };
+		5584FA681E517D2D006D589C /* LoginTextFiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextFiledView.m; sourceTree = "<group>"; };
+		5584FA6A1E517D2D006D589C /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		5584FA6B1E517D2D006D589C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		5584FA6C1E517D2D006D589C /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
+		5584FA6D1E517D2D006D589C /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
+		5584FA701E517D2D006D589C /* FLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNavigationViewController.h; sourceTree = "<group>"; };
+		5584FA711E517D2D006D589C /* FLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNavigationViewController.m; sourceTree = "<group>"; };
+		5584FA721E517D2D006D589C /* FlRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlRootViewController.h; sourceTree = "<group>"; };
+		5584FA731E517D2D006D589C /* FlRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlRootViewController.m; sourceTree = "<group>"; };
 		55919C951E5163A200446D7E /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55919C991E5163A200446D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55919C9B1E5163A200446D7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,30 +88,6 @@
 		55919CB91E5163A200446D7E /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55919CBD1E5163A200446D7E /* LoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginUITests.m; sourceTree = "<group>"; };
 		55919CBF1E5163A200446D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55919CCB1E51659F00446D7E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
-		55919CCC1E51659F00446D7E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		55919CCD1E51659F00446D7E /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
-		55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
-		55919CD01E51659F00446D7E /* FLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNavigationViewController.h; sourceTree = "<group>"; };
-		55919CD11E51659F00446D7E /* FLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNavigationViewController.m; sourceTree = "<group>"; };
-		55919CD21E51659F00446D7E /* FlRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlRootViewController.h; sourceTree = "<group>"; };
-		55919CD31E51659F00446D7E /* FlRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlRootViewController.m; sourceTree = "<group>"; };
-		55919CD61E51659F00446D7E /* FingerprintIdentification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintIdentification.h; sourceTree = "<group>"; };
-		55919CD71E51659F00446D7E /* FingerprintIdentification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintIdentification.m; sourceTree = "<group>"; };
-		55919CD81E51659F00446D7E /* FLNumCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNumCountDown.h; sourceTree = "<group>"; };
-		55919CD91E51659F00446D7E /* FLNumCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNumCountDown.m; sourceTree = "<group>"; };
-		55919CDA1E51659F00446D7E /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
-		55919CDB1E51659F00446D7E /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
-		55919CDC1E51659F00446D7E /* FLAutoLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAutoLogin.h; sourceTree = "<group>"; };
-		55919CDD1E51659F00446D7E /* FLAutoLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAutoLogin.m; sourceTree = "<group>"; };
-		55919CE01E51659F00446D7E /* FLLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewModel.h; sourceTree = "<group>"; };
-		55919CE11E51659F00446D7E /* FLLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewModel.m; sourceTree = "<group>"; };
-		55919CE31E51659F00446D7E /* FLLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginView.h; sourceTree = "<group>"; };
-		55919CE41E51659F00446D7E /* FLLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginView.m; sourceTree = "<group>"; };
-		55919CE51E51659F00446D7E /* LoginTextFiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextFiledView.h; sourceTree = "<group>"; };
-		55919CE61E51659F00446D7E /* LoginTextFiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextFiledView.m; sourceTree = "<group>"; };
-		55919CE91E51659F00446D7E /* FLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewController.h; sourceTree = "<group>"; };
-		55919CEA1E51659F00446D7E /* FLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewController.m; sourceTree = "<group>"; };
 		55919CF91E5165B100446D7E /* FLHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLHeader.pch; sourceTree = "<group>"; };
 		55919CFA1E5165B100446D7E /* FLProjectBase_Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLProjectBase_Const.h; sourceTree = "<group>"; };
 		658B039F7C153031E65A3013 /* libPods-Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +138,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5584FA521E517D2D006D589C /* FLLoginAndSetting */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA531E517D2D006D589C /* FLController */,
+				5584FA561E517D2D006D589C /* FLLoginTools */,
+				5584FA5F1E517D2D006D589C /* FLModel */,
+				5584FA601E517D2D006D589C /* FLResource */,
+				5584FA611E517D2D006D589C /* FLViewModel */,
+				5584FA641E517D2D006D589C /* FLViews */,
+			);
+			path = FLLoginAndSetting;
+			sourceTree = "<group>";
+		};
+		5584FA531E517D2D006D589C /* FLController */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA541E517D2D006D589C /* FLLoginViewController.h */,
+				5584FA551E517D2D006D589C /* FLLoginViewController.m */,
+			);
+			path = FLController;
+			sourceTree = "<group>";
+		};
+		5584FA561E517D2D006D589C /* FLLoginTools */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA571E517D2D006D589C /* FingerprintIdentification.h */,
+				5584FA581E517D2D006D589C /* FingerprintIdentification.m */,
+				5584FA591E517D2D006D589C /* FLAutoLogin.h */,
+				5584FA5A1E517D2D006D589C /* FLAutoLogin.m */,
+				5584FA5B1E517D2D006D589C /* FLNumCountDown.h */,
+				5584FA5C1E517D2D006D589C /* FLNumCountDown.m */,
+				5584FA5D1E517D2D006D589C /* SSKeychain.h */,
+				5584FA5E1E517D2D006D589C /* SSKeychain.m */,
+			);
+			path = FLLoginTools;
+			sourceTree = "<group>";
+		};
+		5584FA5F1E517D2D006D589C /* FLModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FLModel;
+			sourceTree = "<group>";
+		};
+		5584FA601E517D2D006D589C /* FLResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FLResource;
+			sourceTree = "<group>";
+		};
+		5584FA611E517D2D006D589C /* FLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA621E517D2D006D589C /* FLLoginViewModel.h */,
+				5584FA631E517D2D006D589C /* FLLoginViewModel.m */,
+			);
+			path = FLViewModel;
+			sourceTree = "<group>";
+		};
+		5584FA641E517D2D006D589C /* FLViews */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA651E517D2D006D589C /* FLLoginView.h */,
+				5584FA661E517D2D006D589C /* FLLoginView.m */,
+				5584FA671E517D2D006D589C /* LoginTextFiledView.h */,
+				5584FA681E517D2D006D589C /* LoginTextFiledView.m */,
+			);
+			path = FLViews;
+			sourceTree = "<group>";
+		};
+		5584FA691E517D2D006D589C /* FLTools */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA6A1E517D2D006D589C /* NSString+Extension.h */,
+				5584FA6B1E517D2D006D589C /* NSString+Extension.m */,
+				5584FA6C1E517D2D006D589C /* UIButton+ImageTitleStyle.h */,
+				5584FA6D1E517D2D006D589C /* UIButton+ImageTitleStyle.m */,
+			);
+			path = FLTools;
+			sourceTree = "<group>";
+		};
+		5584FA6E1E517D2D006D589C /* ProjectBase */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA6F1E517D2D006D589C /* ProjectBaseViewController */,
+			);
+			path = ProjectBase;
+			sourceTree = "<group>";
+		};
+		5584FA6F1E517D2D006D589C /* ProjectBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5584FA701E517D2D006D589C /* FLNavigationViewController.h */,
+				5584FA711E517D2D006D589C /* FLNavigationViewController.m */,
+				5584FA721E517D2D006D589C /* FlRootViewController.h */,
+				5584FA731E517D2D006D589C /* FlRootViewController.m */,
+			);
+			path = ProjectBaseViewController;
+			sourceTree = "<group>";
+		};
 		55919C8C1E5163A200446D7E = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +264,9 @@
 		55919C971E5163A200446D7E /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				55919CD51E51659F00446D7E /* ProjectBase */,
-				55919CCF1E51659F00446D7E /* FLTools */,
-				55919CEC1E51659F00446D7E /* FLLoginAndSetting */,
+				5584FA521E517D2D006D589C /* FLLoginAndSetting */,
+				5584FA691E517D2D006D589C /* FLTools */,
+				5584FA6E1E517D2D006D589C /* ProjectBase */,
 				55919C9B1E5163A200446D7E /* AppDelegate.h */,
 				55919C9C1E5163A200446D7E /* AppDelegate.m */,
 				55919CF91E5165B100446D7E /* FLHeader.pch */,
@@ -205,110 +306,6 @@
 				55919CBF1E5163A200446D7E /* Info.plist */,
 			);
 			path = LoginUITests;
-			sourceTree = "<group>";
-		};
-		55919CCF1E51659F00446D7E /* FLTools */ = {
-			isa = PBXGroup;
-			children = (
-				55919CCB1E51659F00446D7E /* NSString+Extension.h */,
-				55919CCC1E51659F00446D7E /* NSString+Extension.m */,
-				55919CCD1E51659F00446D7E /* UIButton+ImageTitleStyle.h */,
-				55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */,
-			);
-			name = FLTools;
-			path = ../../../../Login/Login/FLTools;
-			sourceTree = "<group>";
-		};
-		55919CD41E51659F00446D7E /* ProjectBaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				55919CD01E51659F00446D7E /* FLNavigationViewController.h */,
-				55919CD11E51659F00446D7E /* FLNavigationViewController.m */,
-				55919CD21E51659F00446D7E /* FlRootViewController.h */,
-				55919CD31E51659F00446D7E /* FlRootViewController.m */,
-			);
-			path = ProjectBaseViewController;
-			sourceTree = "<group>";
-		};
-		55919CD51E51659F00446D7E /* ProjectBase */ = {
-			isa = PBXGroup;
-			children = (
-				55919CD41E51659F00446D7E /* ProjectBaseViewController */,
-			);
-			name = ProjectBase;
-			path = ../../../../Login/Login/ProjectBase;
-			sourceTree = "<group>";
-		};
-		55919CDE1E51659F00446D7E /* FLLoginTools */ = {
-			isa = PBXGroup;
-			children = (
-				55919CD61E51659F00446D7E /* FingerprintIdentification.h */,
-				55919CD71E51659F00446D7E /* FingerprintIdentification.m */,
-				55919CD81E51659F00446D7E /* FLNumCountDown.h */,
-				55919CD91E51659F00446D7E /* FLNumCountDown.m */,
-				55919CDA1E51659F00446D7E /* SSKeychain.h */,
-				55919CDB1E51659F00446D7E /* SSKeychain.m */,
-				55919CDC1E51659F00446D7E /* FLAutoLogin.h */,
-				55919CDD1E51659F00446D7E /* FLAutoLogin.m */,
-			);
-			path = FLLoginTools;
-			sourceTree = "<group>";
-		};
-		55919CDF1E51659F00446D7E /* FLResource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FLResource;
-			sourceTree = "<group>";
-		};
-		55919CE21E51659F00446D7E /* FLViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				55919CE01E51659F00446D7E /* FLLoginViewModel.h */,
-				55919CE11E51659F00446D7E /* FLLoginViewModel.m */,
-			);
-			path = FLViewModel;
-			sourceTree = "<group>";
-		};
-		55919CE71E51659F00446D7E /* FLViews */ = {
-			isa = PBXGroup;
-			children = (
-				55919CE31E51659F00446D7E /* FLLoginView.h */,
-				55919CE41E51659F00446D7E /* FLLoginView.m */,
-				55919CE51E51659F00446D7E /* LoginTextFiledView.h */,
-				55919CE61E51659F00446D7E /* LoginTextFiledView.m */,
-			);
-			path = FLViews;
-			sourceTree = "<group>";
-		};
-		55919CE81E51659F00446D7E /* FLModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FLModel;
-			sourceTree = "<group>";
-		};
-		55919CEB1E51659F00446D7E /* FLController */ = {
-			isa = PBXGroup;
-			children = (
-				55919CE91E51659F00446D7E /* FLLoginViewController.h */,
-				55919CEA1E51659F00446D7E /* FLLoginViewController.m */,
-			);
-			path = FLController;
-			sourceTree = "<group>";
-		};
-		55919CEC1E51659F00446D7E /* FLLoginAndSetting */ = {
-			isa = PBXGroup;
-			children = (
-				55919CDE1E51659F00446D7E /* FLLoginTools */,
-				55919CDF1E51659F00446D7E /* FLResource */,
-				55919CE21E51659F00446D7E /* FLViewModel */,
-				55919CE71E51659F00446D7E /* FLViews */,
-				55919CE81E51659F00446D7E /* FLModel */,
-				55919CEB1E51659F00446D7E /* FLController */,
-			);
-			name = FLLoginAndSetting;
-			path = ../../../../Login/Login/FLLoginAndSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,21 +489,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55919CF11E51659F00446D7E /* FingerprintIdentification.m in Sources */,
-				55919CEE1E51659F00446D7E /* UIButton+ImageTitleStyle.m in Sources */,
+				5584FA741E517D2D006D589C /* FLLoginViewController.m in Sources */,
+				5584FA791E517D2D006D589C /* FLLoginViewModel.m in Sources */,
+				5584FA781E517D2D006D589C /* SSKeychain.m in Sources */,
 				55919CA01E5163A200446D7E /* ViewController.m in Sources */,
-				55919CF81E51659F00446D7E /* FLLoginViewController.m in Sources */,
-				55919CF01E51659F00446D7E /* FlRootViewController.m in Sources */,
-				55919CF71E51659F00446D7E /* LoginTextFiledView.m in Sources */,
-				55919CF51E51659F00446D7E /* FLLoginViewModel.m in Sources */,
+				5584FA751E517D2D006D589C /* FingerprintIdentification.m in Sources */,
+				5584FA7B1E517D2D006D589C /* LoginTextFiledView.m in Sources */,
 				55919C9D1E5163A200446D7E /* AppDelegate.m in Sources */,
+				5584FA7D1E517D2D006D589C /* UIButton+ImageTitleStyle.m in Sources */,
+				5584FA7C1E517D2D006D589C /* NSString+Extension.m in Sources */,
+				5584FA7A1E517D2D006D589C /* FLLoginView.m in Sources */,
+				5584FA7E1E517D2D006D589C /* FLNavigationViewController.m in Sources */,
+				5584FA761E517D2D006D589C /* FLAutoLogin.m in Sources */,
 				55919C9A1E5163A200446D7E /* main.m in Sources */,
-				55919CF41E51659F00446D7E /* FLAutoLogin.m in Sources */,
-				55919CEF1E51659F00446D7E /* FLNavigationViewController.m in Sources */,
-				55919CF21E51659F00446D7E /* FLNumCountDown.m in Sources */,
-				55919CED1E51659F00446D7E /* NSString+Extension.m in Sources */,
-				55919CF61E51659F00446D7E /* FLLoginView.m in Sources */,
-				55919CF31E51659F00446D7E /* SSKeychain.m in Sources */,
+				5584FA771E517D2D006D589C /* FLNumCountDown.m in Sources */,
+				5584FA7F1E517D2D006D589C /* FlRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
