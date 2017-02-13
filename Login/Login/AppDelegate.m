@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FLNavigationViewController.h"
+#import "FLLoginViewController.h"//登录界面
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	//设置导航栏的颜色
+	[self setNavigationBarColor];
+	
+	//登录界面
+	//通知是用于在数据请求时通知登录过期,从而跳转到登录界面
+	[self loadLoginViewController:nil];
+
 	return YES;
+}
+- (void)loadLoginViewController:(NSNotification *)noti{
+	FLLoginViewController * FLLoginVc = [[FLLoginViewController alloc] init];
+	FLLoginVc.reLogin = noti?YES:NO;
+	FLNavigationViewController *nvc = [[FLNavigationViewController alloc] initWithRootViewController:FLLoginVc];
+	self.window.rootViewController = nvc;
+	
+}
+- (void)setNavigationBarColor{
+	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+	[[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName:kFONT_BOLD(20),NSForegroundColorAttributeName:[UIColor whiteColor]}];
+	[UINavigationBar appearance].translucent = NO;
+	[[UINavigationBar appearance] setBarTintColor:kCOLOR_GREEN];
+	[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+	
+	[[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+	[[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+	
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

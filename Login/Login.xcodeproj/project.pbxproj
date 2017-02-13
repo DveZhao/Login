@@ -15,6 +15,19 @@
 		55919CA81E5163A200446D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55919CA61E5163A200446D7E /* LaunchScreen.storyboard */; };
 		55919CB31E5163A200446D7E /* LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CB21E5163A200446D7E /* LoginTests.m */; };
 		55919CBE1E5163A200446D7E /* LoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CBD1E5163A200446D7E /* LoginUITests.m */; };
+		55919CED1E51659F00446D7E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CCC1E51659F00446D7E /* NSString+Extension.m */; };
+		55919CEE1E51659F00446D7E /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */; };
+		55919CEF1E51659F00446D7E /* FLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD11E51659F00446D7E /* FLNavigationViewController.m */; };
+		55919CF01E51659F00446D7E /* FlRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD31E51659F00446D7E /* FlRootViewController.m */; };
+		55919CF11E51659F00446D7E /* FingerprintIdentification.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD71E51659F00446D7E /* FingerprintIdentification.m */; };
+		55919CF21E51659F00446D7E /* FLNumCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CD91E51659F00446D7E /* FLNumCountDown.m */; };
+		55919CF31E51659F00446D7E /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CDB1E51659F00446D7E /* SSKeychain.m */; };
+		55919CF41E51659F00446D7E /* FLAutoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CDD1E51659F00446D7E /* FLAutoLogin.m */; };
+		55919CF51E51659F00446D7E /* FLLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE11E51659F00446D7E /* FLLoginViewModel.m */; };
+		55919CF61E51659F00446D7E /* FLLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE41E51659F00446D7E /* FLLoginView.m */; };
+		55919CF71E51659F00446D7E /* LoginTextFiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CE61E51659F00446D7E /* LoginTextFiledView.m */; };
+		55919CF81E51659F00446D7E /* FLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55919CEA1E51659F00446D7E /* FLLoginViewController.m */; };
+		9BCB36C756622D7E0B8C9551 /* libPods-Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B039F7C153031E65A3013 /* libPods-Login.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,35 @@
 		55919CB91E5163A200446D7E /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55919CBD1E5163A200446D7E /* LoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginUITests.m; sourceTree = "<group>"; };
 		55919CBF1E5163A200446D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55919CCB1E51659F00446D7E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		55919CCC1E51659F00446D7E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		55919CCD1E51659F00446D7E /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
+		55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
+		55919CD01E51659F00446D7E /* FLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNavigationViewController.h; sourceTree = "<group>"; };
+		55919CD11E51659F00446D7E /* FLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNavigationViewController.m; sourceTree = "<group>"; };
+		55919CD21E51659F00446D7E /* FlRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlRootViewController.h; sourceTree = "<group>"; };
+		55919CD31E51659F00446D7E /* FlRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlRootViewController.m; sourceTree = "<group>"; };
+		55919CD61E51659F00446D7E /* FingerprintIdentification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintIdentification.h; sourceTree = "<group>"; };
+		55919CD71E51659F00446D7E /* FingerprintIdentification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintIdentification.m; sourceTree = "<group>"; };
+		55919CD81E51659F00446D7E /* FLNumCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNumCountDown.h; sourceTree = "<group>"; };
+		55919CD91E51659F00446D7E /* FLNumCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNumCountDown.m; sourceTree = "<group>"; };
+		55919CDA1E51659F00446D7E /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		55919CDB1E51659F00446D7E /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		55919CDC1E51659F00446D7E /* FLAutoLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAutoLogin.h; sourceTree = "<group>"; };
+		55919CDD1E51659F00446D7E /* FLAutoLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAutoLogin.m; sourceTree = "<group>"; };
+		55919CE01E51659F00446D7E /* FLLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewModel.h; sourceTree = "<group>"; };
+		55919CE11E51659F00446D7E /* FLLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewModel.m; sourceTree = "<group>"; };
+		55919CE31E51659F00446D7E /* FLLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginView.h; sourceTree = "<group>"; };
+		55919CE41E51659F00446D7E /* FLLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginView.m; sourceTree = "<group>"; };
+		55919CE51E51659F00446D7E /* LoginTextFiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextFiledView.h; sourceTree = "<group>"; };
+		55919CE61E51659F00446D7E /* LoginTextFiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextFiledView.m; sourceTree = "<group>"; };
+		55919CE91E51659F00446D7E /* FLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLoginViewController.h; sourceTree = "<group>"; };
+		55919CEA1E51659F00446D7E /* FLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLoginViewController.m; sourceTree = "<group>"; };
+		55919CF91E5165B100446D7E /* FLHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLHeader.pch; sourceTree = "<group>"; };
+		55919CFA1E5165B100446D7E /* FLProjectBase_Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLProjectBase_Const.h; sourceTree = "<group>"; };
+		658B039F7C153031E65A3013 /* libPods-Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EC1D0E0BB50E5D195EC1AE /* Pods-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.release.xcconfig"; sourceTree = "<group>"; };
+		6FBDB1F3DAECBDFED4104DE7 /* Pods-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login/Pods-Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCB36C756622D7E0B8C9551 /* libPods-Login.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121305D800EFC3ADE8D13815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FBDB1F3DAECBDFED4104DE7 /* Pods-Login.debug.xcconfig */,
+				65EC1D0E0BB50E5D195EC1AE /* Pods-Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		361056ABFDAE18E3E3D2B1C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658B039F7C153031E65A3013 /* libPods-Login.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55919C8C1E5163A200446D7E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +145,8 @@
 				55919CB11E5163A200446D7E /* LoginTests */,
 				55919CBC1E5163A200446D7E /* LoginUITests */,
 				55919C961E5163A200446D7E /* Products */,
+				121305D800EFC3ADE8D13815 /* Pods */,
+				361056ABFDAE18E3E3D2B1C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +163,13 @@
 		55919C971E5163A200446D7E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				55919CD51E51659F00446D7E /* ProjectBase */,
+				55919CCF1E51659F00446D7E /* FLTools */,
+				55919CEC1E51659F00446D7E /* FLLoginAndSetting */,
 				55919C9B1E5163A200446D7E /* AppDelegate.h */,
 				55919C9C1E5163A200446D7E /* AppDelegate.m */,
+				55919CF91E5165B100446D7E /* FLHeader.pch */,
+				55919CFA1E5165B100446D7E /* FLProjectBase_Const.h */,
 				55919C9E1E5163A200446D7E /* ViewController.h */,
 				55919C9F1E5163A200446D7E /* ViewController.m */,
 				55919CA11E5163A200446D7E /* Main.storyboard */,
@@ -140,6 +207,110 @@
 			path = LoginUITests;
 			sourceTree = "<group>";
 		};
+		55919CCF1E51659F00446D7E /* FLTools */ = {
+			isa = PBXGroup;
+			children = (
+				55919CCB1E51659F00446D7E /* NSString+Extension.h */,
+				55919CCC1E51659F00446D7E /* NSString+Extension.m */,
+				55919CCD1E51659F00446D7E /* UIButton+ImageTitleStyle.h */,
+				55919CCE1E51659F00446D7E /* UIButton+ImageTitleStyle.m */,
+			);
+			name = FLTools;
+			path = ../../../../Login/Login/FLTools;
+			sourceTree = "<group>";
+		};
+		55919CD41E51659F00446D7E /* ProjectBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55919CD01E51659F00446D7E /* FLNavigationViewController.h */,
+				55919CD11E51659F00446D7E /* FLNavigationViewController.m */,
+				55919CD21E51659F00446D7E /* FlRootViewController.h */,
+				55919CD31E51659F00446D7E /* FlRootViewController.m */,
+			);
+			path = ProjectBaseViewController;
+			sourceTree = "<group>";
+		};
+		55919CD51E51659F00446D7E /* ProjectBase */ = {
+			isa = PBXGroup;
+			children = (
+				55919CD41E51659F00446D7E /* ProjectBaseViewController */,
+			);
+			name = ProjectBase;
+			path = ../../../../Login/Login/ProjectBase;
+			sourceTree = "<group>";
+		};
+		55919CDE1E51659F00446D7E /* FLLoginTools */ = {
+			isa = PBXGroup;
+			children = (
+				55919CD61E51659F00446D7E /* FingerprintIdentification.h */,
+				55919CD71E51659F00446D7E /* FingerprintIdentification.m */,
+				55919CD81E51659F00446D7E /* FLNumCountDown.h */,
+				55919CD91E51659F00446D7E /* FLNumCountDown.m */,
+				55919CDA1E51659F00446D7E /* SSKeychain.h */,
+				55919CDB1E51659F00446D7E /* SSKeychain.m */,
+				55919CDC1E51659F00446D7E /* FLAutoLogin.h */,
+				55919CDD1E51659F00446D7E /* FLAutoLogin.m */,
+			);
+			path = FLLoginTools;
+			sourceTree = "<group>";
+		};
+		55919CDF1E51659F00446D7E /* FLResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FLResource;
+			sourceTree = "<group>";
+		};
+		55919CE21E51659F00446D7E /* FLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55919CE01E51659F00446D7E /* FLLoginViewModel.h */,
+				55919CE11E51659F00446D7E /* FLLoginViewModel.m */,
+			);
+			path = FLViewModel;
+			sourceTree = "<group>";
+		};
+		55919CE71E51659F00446D7E /* FLViews */ = {
+			isa = PBXGroup;
+			children = (
+				55919CE31E51659F00446D7E /* FLLoginView.h */,
+				55919CE41E51659F00446D7E /* FLLoginView.m */,
+				55919CE51E51659F00446D7E /* LoginTextFiledView.h */,
+				55919CE61E51659F00446D7E /* LoginTextFiledView.m */,
+			);
+			path = FLViews;
+			sourceTree = "<group>";
+		};
+		55919CE81E51659F00446D7E /* FLModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FLModel;
+			sourceTree = "<group>";
+		};
+		55919CEB1E51659F00446D7E /* FLController */ = {
+			isa = PBXGroup;
+			children = (
+				55919CE91E51659F00446D7E /* FLLoginViewController.h */,
+				55919CEA1E51659F00446D7E /* FLLoginViewController.m */,
+			);
+			path = FLController;
+			sourceTree = "<group>";
+		};
+		55919CEC1E51659F00446D7E /* FLLoginAndSetting */ = {
+			isa = PBXGroup;
+			children = (
+				55919CDE1E51659F00446D7E /* FLLoginTools */,
+				55919CDF1E51659F00446D7E /* FLResource */,
+				55919CE21E51659F00446D7E /* FLViewModel */,
+				55919CE71E51659F00446D7E /* FLViews */,
+				55919CE81E51659F00446D7E /* FLModel */,
+				55919CEB1E51659F00446D7E /* FLController */,
+			);
+			name = FLLoginAndSetting;
+			path = ../../../../Login/Login/FLLoginAndSetting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55919CC21E5163A200446D7E /* Build configuration list for PBXNativeTarget "Login" */;
 			buildPhases = (
+				7AD9447F1C212BC5D36C2203 /* [CP] Check Pods Manifest.lock */,
 				55919C911E5163A200446D7E /* Sources */,
 				55919C921E5163A200446D7E /* Frameworks */,
 				55919C931E5163A200446D7E /* Resources */,
+				D6D559F5EC1485B18E6E9E78 /* [CP] Embed Pods Frameworks */,
+				7C00164001E7A59AE56C52ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +439,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7AD9447F1C212BC5D36C2203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C00164001E7A59AE56C52ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D559F5EC1485B18E6E9E78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login/Pods-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55919C911E5163A200446D7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55919CF11E51659F00446D7E /* FingerprintIdentification.m in Sources */,
+				55919CEE1E51659F00446D7E /* UIButton+ImageTitleStyle.m in Sources */,
 				55919CA01E5163A200446D7E /* ViewController.m in Sources */,
+				55919CF81E51659F00446D7E /* FLLoginViewController.m in Sources */,
+				55919CF01E51659F00446D7E /* FlRootViewController.m in Sources */,
+				55919CF71E51659F00446D7E /* LoginTextFiledView.m in Sources */,
+				55919CF51E51659F00446D7E /* FLLoginViewModel.m in Sources */,
 				55919C9D1E5163A200446D7E /* AppDelegate.m in Sources */,
 				55919C9A1E5163A200446D7E /* main.m in Sources */,
+				55919CF41E51659F00446D7E /* FLAutoLogin.m in Sources */,
+				55919CEF1E51659F00446D7E /* FLNavigationViewController.m in Sources */,
+				55919CF21E51659F00446D7E /* FLNumCountDown.m in Sources */,
+				55919CED1E51659F00446D7E /* NSString+Extension.m in Sources */,
+				55919CF61E51659F00446D7E /* FLLoginView.m in Sources */,
+				55919CF31E51659F00446D7E /* SSKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +645,10 @@
 		};
 		55919CC31E5163A200446D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBDB1F3DAECBDFED4104DE7 /* Pods-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Login/FLHeader.pch";
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZZLing.Login;
@@ -422,8 +658,10 @@
 		};
 		55919CC41E5163A200446D7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EC1D0E0BB50E5D195EC1AE /* Pods-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Login/FLHeader.pch";
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZZLing.Login;
@@ -496,6 +734,7 @@
 				55919CC41E5163A200446D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55919CC51E5163A200446D7E /* Build configuration list for PBXNativeTarget "LoginTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +743,7 @@
 				55919CC71E5163A200446D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55919CC81E5163A200446D7E /* Build configuration list for PBXNativeTarget "LoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +752,7 @@
 				55919CCA1E5163A200446D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
