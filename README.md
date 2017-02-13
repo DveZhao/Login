@@ -1,2 +1,2 @@
 # Login
-项目主要是联系reactiveCocoa,以及MVVM框架使用
+项目主要是练习reactiveCocoa,以及MVVM框架使用
